@@ -1,5 +1,3 @@
-# my_first_flutter_project
-
 My first Flutter project.
 
 ## Getting Started
