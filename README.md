@@ -1,6 +1,6 @@
 ## My first Flutter project.
 
 
-Flutter Questionnaire is an interactive app developed in Android Studio to demonstrate skills learned through Codecademy’s Intro to Flutter course. Built with Dart and Flutter, the app presents a series of questions, tracks user responses, and provides a clean, engaging UI experience. This project highlights proficiency in mobile app development fundamentals, from widget design and state management to user interaction.
+Flutter Questionnaire is a foundational survey app built in Android Studio to showcase essential Flutter and Dart skills acquired through Codecademy’s Intro to Flutter course. This project demonstrates proficiency with core Flutter widgets, including layout elements like Container, Column, and Row, to create a clean and structured UI. Though not yet interactive, it serves as a base for future enhancements, such as handling user input.
 
 
