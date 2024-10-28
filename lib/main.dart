@@ -3,8 +3,9 @@ import 'package:flutter/material.dart';
 void main() {
 
   var companyNameDecoration = BoxDecoration(
-      border: Border.all(color: Colors.lightBlue, width: 10),
-      color: Colors.grey);
+      border: Border.all(color: Colors.indigo, width: 10),
+      borderRadius: BorderRadius.circular(12),
+      color: const Color(0xFFD3D3D3));
 
   var companyNameWidget = Container(
     padding: const EdgeInsets.symmetric(horizontal: 50.0, vertical: 20.0),
@@ -13,7 +14,7 @@ void main() {
       mainAxisSize: MainAxisSize.min,
       children: [
         Text(
-          'Company name here',
+          'The Daily Icon',
           style: TextStyle(
             fontSize: 50,
             color: Colors.indigo[900],
@@ -24,9 +25,10 @@ void main() {
   );
 
 
-  var questionWidget = const Text('Question here',
+  var questionWidget = const Text('Which thumb best describes your day?',
     style: TextStyle(
       fontSize: 30,
+      color: Colors.indigo,
     ),
   );
 
@@ -49,14 +51,17 @@ void main() {
 
 
   runApp(MaterialApp(
-    home: Column(
-      mainAxisAlignment: MainAxisAlignment.spaceAround,
-      children: [
-        companyNameWidget,
-        questionWidget,
-        thumbsWidget,
-      ]
-    ),
+    home: Scaffold(
+      backgroundColor: Colors.orangeAccent,
+      body: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          children: [
+            companyNameWidget,
+            questionWidget,
+            thumbsWidget,
+          ]
+      ),
+    )
   ),
   );
 
